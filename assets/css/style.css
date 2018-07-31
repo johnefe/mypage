@@ -20,6 +20,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
 @import url('https://fonts.googleapis.com/css?family=Abel|Alfa+Slab+One|Anton|Didact+Gothic|Pontano+Sans|Righteous|Rubik');
 @import url('https://fonts.googleapis.com/css?family=Happy+Monkey|Montserrat|Raleway|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Erica+One|Happy+Monkey|Lobster|Molle:400i|Pacifico|Ranchers');
 /*
 font-family: 'Anton', sans-serif;
 font-family: 'Rubik', sans-serif; noooo
@@ -32,6 +33,11 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Happy Monkey', cursive;
+
+font-family: 'Happy Monkey', cursive;
+font-family: 'Ranchers', cursive;
+font-family: 'Molle', cursive;
+font-family: 'Erica One', cursive;
 */
 
 /* ==========================================================================
@@ -263,3 +269,20 @@ footer {
 .textarea-msj{
   border: 1px solid #EEEEEE !important;
 }
+.title-page{
+  font-family: 'Pacifico', cursive;
+  font-size: 26px;
+}
+.title-post{
+ font-family: 'Montserrat', sans-serif !important;
+}
+
+/*
+
+font-family: 'Happy Monkey', cursive;
+font-family: 'Ranchers', cursive;
+font-family: 'Molle', cursive;
+font-family: 'Erica One', cursive;
+c
+font-family: 'Pacifico', cursive;
+*/
