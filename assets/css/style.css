@@ -38,6 +38,7 @@ font-family: 'Happy Monkey', cursive;
 font-family: 'Ranchers', cursive;
 font-family: 'Molle', cursive;
 font-family: 'Erica One', cursive;
+color amarillo #F57C00
 */
 
 /* ==========================================================================
@@ -217,7 +218,7 @@ footer {
   border-top: 1px solid #eee !important;
 }
 .footerWhite .copyRightWrapper .copyRightText p {
-  font-family: 'Abhaya Libre', serif;	
+  font-family: 'Raleway', serif;	
   color: #848484;
   font-size: 17px;
 }
@@ -267,7 +268,7 @@ footer {
 }
 
 .textarea-msj{
-  border: 1px solid #EEEEEE !important;
+  border: 1px solid #9E9E9E !important;
 }
 .title-page{
   font-family: 'Pacifico', cursive;
@@ -278,6 +279,24 @@ footer {
  font-size: 23px;
 }
 
+.nav-menu{
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.ini{
+  color: #F57C00 !important;
+}
+.title-about{
+  font-weight: 700;
+  font-size: 20px !important;
+}
+.social{
+  padding: 5px;
+  color: #F57C00;
+}
+.social:hover{
+  color: #9E9E9E;
+}
 /*
 
 font-family: 'Happy Monkey', cursive;
