@@ -60,10 +60,10 @@
           <ul class="nav navbar-nav pull-right">
             
             <li><a  class="nav-menu" href="servicios.html">Servicios</a></li>
-            <li><a  class="nav-menu" href="">Contacto</a></li>
-            <li><a  class="nav-menu" href="">Trabajo</a></li>
-            <li><a class="nav-menu" href="">Blog</a></li>
-            <li><a class="nav-menu ini" href="">Ingresar</a></li>
+            <li><a  class="nav-menu" href="contacto.html">Contacto</a></li>
+            <li><a  class="nav-menu" href="trabajo.html">Trabajo</a></li>
+            <li><a class="nav-menu" href="blog.html">Blog</a></li>
+            <li><a class="nav-menu ini" href="login.html">Ingresar</a></li>
 
           </ul>
          </div>
@@ -76,6 +76,120 @@
        </div><!-- /.container -->
       </nav><!-- /.navbar -->
      </header><!-- Page Header --> 
+     <!-- ==============================================
+      section 1
+      ===============================================-->
+      <section class="profile">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3">
+            <div class="profilebox-service hidden-xs hidden-sm" 
+               style="background: linear-gradient( rgba(34,34,34,0.45), rgba(34,34,34,0.45)), url('assets/img/posts/2.jpg') no-repeat;
+                      background-size: cover;
+                          background-position: center center;
+                          -webkit-background-size: cover;
+                          -moz-background-size: cover;
+                          -o-background-size: cover;">      
+            </div>
+            <div class="profilebox-service hidden-xs hidden-sm" 
+               style="background: linear-gradient( rgba(34,34,34,0.45), rgba(34,34,34,0.45)), url('assets/img/posts/1.gif') no-repeat;
+                      background-size: cover;
+                          background-position: center center;
+                          -webkit-background-size: cover;
+                          -moz-background-size: cover;
+                          -o-background-size: cover;">      
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="profilebox-large-service hidden-xs hidden-sm" 
+               style="background: linear-gradient( rgba(34,34,34,0.45), rgba(34,34,34,0.45)), url('assets/img/posts/1.jpg') no-repeat;
+                      background-size: cover;
+                          background-position: center center;
+                          -webkit-background-size: cover;
+                          -moz-background-size: cover;
+                          -o-background-size: cover;">      
+            </div>
+        </div>
+        <div class="col-lg-3">
+            <div class="profilebox-service hidden-xs hidden-sm" 
+               style="background: linear-gradient( rgba(34,34,34,0.45), rgba(34,34,34,0.45)), url('assets/img/posts/3.jpg') no-repeat;
+                      background-size: cover;
+                          background-position: center center;
+                          -webkit-background-size: cover;
+                          -moz-background-size: cover;
+                          -o-background-size: cover;">      
+            </div>
+            <div class="profilebox-service" 
+                style="background: linear-gradient( rgba(34,34,34,0.6), rgba(34,34,34,0.6)), url('assets/img/posts/4.gif') no-repeat;
+                    background-size: cover;
+                        background-position: center center;
+                        -webkit-background-size: cover;
+                        -moz-background-size: cover;
+                        -o-background-size: cover;">      
+            </div>
+        </div>  
+        </div>  
+    </div>
+   </section>
+    <!-- ===============================================
+      section services
+      =================================================-->
+    <section class="user-profile">
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+           <div class="post-content">
+              <div class="author-post text-center">
+                <a href="#"><img class="img-fluid img-circle" src="assets/img/users/pp.jpg" alt="Image"></a>
+              </div>
+            </div>    
+        </div>    
+          </div>
+     </div>
+   </section>
+
+    <!-- ===============================================
+      form contact 
+     ================================================-->
+     <section class="user-profile">
+       <div class="container-fluid">
+          <div class="row" style="padding-top: 10px;">
+             
+             <div class="col-lg-10 col-lg-offset-1">
+               <div class="row">
+                  <div class="col-lg-6">
+                    
+                  </div>
+                  <div class="col-lg-6" style="background-color: #eee; margin-bottom: 30px;padding-bottom: 30px;">
+                    <div class="contenedor-formulario">
+                      <div class="col-lg-12">
+                            <form action="" class="formulario" name="formulario_registro">
+                      
+                                <div class="form-group input-group i">
+                                  <input type="text" id="nombre"  name="nombre">
+                                  <label class="label" for="nombre">Nombre:</label>
+                                </div>
+                                 <div class="input-group i">
+                                  <input type="text" id="telefono" name="telefono">
+                                  <label class="label" for="telefono">Teléfono:</label>
+                                </div>
+                                <div class="input-group i">
+                                  <input type="email" id="correo" name="correo">
+                                  <label class="label" for="correo">Correo:</label>
+                                </div>
+                                <div class="input-group i">
+                                  <textarea rows="5" placeholder="Escribe tu mensaje"></textarea>
+                                </div>
+
+                                <input type="submit" id="btn-submit" value="Enviar">
+                             
+                            </form>
+                          </div>
+                      </div>
+                  </div>
+               </div>
+             </div>
+     </section>
 
      <!-- ==============================================
      Footer Section
@@ -102,7 +216,7 @@
             
             <div class="col-sm-7 col-sm-pull-5 col-xs-12">
              <div class="copyRightText">
-              <p>Copyright © 2018. All Rights Reserved by Ing. Jhon Frey Diaz</p>
+              <p>Copyright © 2018. All Rights Reserved by www.ciervolab.com</p>
              </div>
             </div>
           
@@ -121,6 +235,7 @@
      Scripts
      =============================================== -->
     <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/form-contact.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/base.js"></script>
     <script src="assets/jquery.slimscroll.js"></script>

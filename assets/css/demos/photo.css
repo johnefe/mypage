@@ -583,7 +583,7 @@ a.navbar-brand:hover {
    ========================================================================== */  
 .newsfeed {
   background: #f4f4f4;	
-  padding: 40px 0px;
+  padding: 0px 0px;
 }   
 .cardbox {
   border-radius: 3px;
@@ -1375,6 +1375,22 @@ a.navbar-brand:hover {
   margin-bottom: 0px !important;
   padding: 0px !important;
 }
+.profilebox-service {
+  color: #fff;
+  height: 100px;
+  width: 100%;
+  box-shadow: 0 5px 25px 0 rgba(123,123,123,.15);
+  margin-bottom: 0px !important;
+  padding: 0px !important;
+}
+.profilebox-large-service {
+  color: #fff;
+  height: 200px;
+  width: 100%;
+  box-shadow: 0 5px 25px 0 rgba(123,123,123,.15);
+  margin-bottom: 0px !important;
+  padding: 0px !important;
+}
 .profilebox-large {
   color: #fff;
   height: 500px;
@@ -1390,7 +1406,7 @@ a.navbar-brand:hover {
    ========================================================================== */
 .user-profile{
   background: #f4f4f4;	
-  padding: 0px 0px 20px 0px;
+  padding: 0px 0px 0px 0px;
 }
 .user-profile .post-content {
   display: flex;
