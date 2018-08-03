@@ -416,5 +416,30 @@ forma contact
   transition: all 0.3s ease;
 }
 
+.info-date{
+  background-color: #F57C00 !important;
+}
 
+/*==========================================*/
+.btn-view-ofert{
+  background: #F57C00;
+  padding: 10px;
+  color: #fff !important;
+  border-radius: 20px;
+  margin-top: 10px !important;
+  text-decoration: none;
+}
+.btn-view-ofert a{
+  text-decoration: none;
+  color: #fff;
+  font-family: "Raleway", Arial;
+  font-size: 20px;
+}
 
+.btn-view-ofert:hover{
+  background:#e0e0e0;
+}
+
+.btn-view-ofert:hover a{
+  color: #F57C00;
+}
