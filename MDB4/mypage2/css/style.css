@@ -4,8 +4,6 @@
 }
 
 
-
-
 .view,body,html{
 	height:100%}
 .carousel{height:50%}
@@ -14,12 +12,13 @@
 @media (max-width:776px){
 	.carousel{height:100%}
 }
-.navbar{
-	background-color:rgba(0,0,0,.2)
+
+.page-footer,.top-nav-collapse{
+    background-color:#929FBA
 }
-.page-footer,.top-nav-collapse{background-color:#929FBA}
+
 @media only screen and (max-width:768px){
-	.navbar{background-color:#929FBA}
+	
 }
 
 /*******************************************************************************************/
@@ -136,4 +135,16 @@ div.wpcf7 input[type="file"]:disabled {
 
 div.wpcf7 .wpcf7-submit:disabled {
 	cursor: not-allowed;
+}
+/*===========================================*/
+.log-in{
+    border-radius: 3px !important;
+    padding-top: 7px !important;
+    padding-bottom: 3px !important;
+}
+.purple-bg{
+    background-color: #310f5c !important;
+}
+.purple-bg-1{
+    background-color: #481484 !important;
 }
